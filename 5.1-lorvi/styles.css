@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #fcf5df;
+    color: #333;
+    
+    
+}
+
+.css-log{
+        font-size: 40px;
+        font-weight: bold;
+        color: #4285F4;
+        text-shadow: 2px 3px 1px rgba(0, 0, 0, 0.2);
+      }
+      
+.main{
+text-align: left;
+max-width: 400px;
+margin: auto; 
+}
+
+.word{
+    color:#4285F4;
+    font-style: italic;
+}
+
+.code-box {
+    background-color: #f8f8f8;
+    border: 1px;
+    border-color:#ddd;
+    border-style:solid;
+    padding: 12px 16px;
+    border-radius: 6px; 
+    color: #333;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    font-size:15px;
+  }
+  
+  .value {
+    color: #6b8ed6; 
+    font-style: italic;
+  }
+  
+  .property{
+    margin-left: 35px;
+  }

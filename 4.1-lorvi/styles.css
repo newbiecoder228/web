@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.7;
+    margin: 0;
+    padding: 20px;
+    background-color: #C8C8C6;
+}
+
+
+h3 {
+    color: #ffffff;
+    font-size:1em;
+    padding: 1em;
+    background-color: #FF3E5D;
+    font-style: italic;
+    text-decoration: underline;
+    padding: 1.2em;
+}
+
+h2 {
+    text-align:center;
+    color: #FDFCF5;
+    font-size: 1.2em;
+    background-color: #008BA5;
+    padding: 1em;
+}
+
+
+p {
+    margin-left: 1em;
+    color: #61615e;
+    font-size: 0.9em;
+    text-indent: 25px;
+}

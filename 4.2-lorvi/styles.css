@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+ 
+    
+}
+
+.p-st {
+    font-weight: bold;
+    text-align: right;
+    color: black;
+}
+
+.table-style{
+    color: aliceblue;
+    border-left: none;
+    border-collapse: collapse;
+    border-width: 1px;
+   border-color: black;
+   border-right-style: dotted;
+   border-bottom-style: dotted;
+    text-align: center;
+}
+.row1{
+    font-weight: bold;
+background-color: rgb(20, 20, 70);
+}
+
+.blue-box{
+background-color: blue;
+
+}
+
+.purp-box{
+background-color: rgb(113, 27, 116);
+
+}
+.grey-box{
+background-color: rgb(114, 134, 156);
+border-top-style:dotted;
+border-color: black;
+border-width: 1px;
+}
+.td-st{
+    border-style: dotted;
+    border-width: 1px;
+    border-color: black;
+}
+
