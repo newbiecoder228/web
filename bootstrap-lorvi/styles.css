@@ -24,10 +24,6 @@
     margin-bottom: 30px;
 }
 
-.carousel-indicators {
-    bottom: -40px;
-}
-
 .carousel-indicators button {
     width: 10px;
     height: 10px;
