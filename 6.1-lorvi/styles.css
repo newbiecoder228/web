@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.cap-st {
+    font-weight: bold;
+    text-align: right;
+    color: rgb(0, 0, 0);
+}
+/*перший рядок*/
+.table-style  tr:first-child {
+    background-color: rgb(23, 23, 87);
+    font-weight: bold;
+    border-top-style:dotted;
+    border-color: black;
+    border-width: 1px;
+}
+
+/*парні рядки*/
+.table-style tr:nth-child(even):not(:first-child) {
+    background-color: rgb(113, 27, 116);
+    border-top-style:dotted;
+    border-color: black;
+    border-width: 1px;
+}
+
+/*непарні рядки*/
+.table-style tr:nth-child(odd):not(:first-child) {
+    background-color: blue;
+    border-top-style:dotted;
+    border-color: black;
+    border-width: 1px;
+}
+
+/*Перша клітинка кожного рядка, крім першого*/
+.table-style tr:not(:first-child) td:first-child {
+    background-color: rgb(114, 134, 156);
+    border-top-style: dotted;
+    border-color: black;
+    border-width: 1px;
+}
+.table-style{
+    color: rgb(255, 255, 255);
+    border-collapse: collapse;
+    border-width: 1px;
+   border-color: black;
+   border-bottom-style: dotted;
+    text-align: center;
+}
